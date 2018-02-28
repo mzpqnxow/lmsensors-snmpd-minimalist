@@ -22,5 +22,5 @@ If you run the `make` commands as root, you will want to comment out the `SUDO :
 
 1. Use the Arch package manager (whose name I am too lazy to even look up right now) to install snmpd
 2. Copy etc/snmp/snmpd.conf over /etc/snmpd.conf
-3. Edit /etc/snmpd.conf by hand to change ____COMMSTR____ to your preferred community string value
+3. Edit /etc/snmpd.conf by hand to change \__COMMSTR\__ to your preferred community string value
 4. Regret wasting your time on Arch when Debian works just fine :>
