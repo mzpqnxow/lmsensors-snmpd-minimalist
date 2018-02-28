@@ -1,6 +1,6 @@
 # snmp-lmsensors-minimalist
 
-An example of a minimalist read-only SNMPv1 configuration for exposing lmsensors data. This is tested / designed to run on Debian/Ubuntu based systems only. You will obviously need to change the `apt-get` commands to `yum` at the very least to use this on CentOS, RHEL, or Arch.
+An example of a minimalist read-only SNMPv1 configuration for exposing lmsensors data. This is tested / designed to run on Debian/Ubuntu based systems only. You will obviously need to change the `apt-get` commands to `yum` at the very least to use this on CentOS, RHEL, or Arch. See the section below 'If I don't run Debian ...' in these cases
 
 ## Notes
 
