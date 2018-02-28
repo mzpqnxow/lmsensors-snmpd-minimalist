@@ -4,6 +4,12 @@ An example of a minimalist read-only SNMPv1 configuration for exposing lmsensors
 
 ## Notes
 
+### Installing lmsensors
+
+This assumes that you have already installed and configured `lmsensors` on your system. Installing and configuring this is beyond the scope of this puny and pathetic repository
+
+### Audience / Purpose
+
 This is for dummies who haven't worked with SNMP much before and don't trust it enough to enable it on their systems. This `Makefile` provides a quick way to install an snmpd configuration that exposes *only* `lmsensors` information by whitelisting the lmSensors OID to a view and assigning a non-default value for the read-only community string name
 
 ### Install
